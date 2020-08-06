@@ -4,18 +4,18 @@ const tailwindConfig = require('./tailwind.config.js')
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: `John Lindquist`,
-    author: `John Lindquist`,
+    title: `Jeffrey Gaboni`,
+    author: `Jeffrey Gaboni`,
     description: `This is where I post things!`,
-    siteUrl: `https://johnlindquist.com`,
+    siteUrl: `https://iamthenewking.com`,
     social: [
       {
         name: `Twitter`,
-        url: `https://twitter.com/johnlindquist`,
+        url: `https://twitter.com/iamthenewking`,
       },
       {
         name: `Github`,
-        url: `https://github.com/johnlindquist`,
+        url: `https://github.com/iamthenewking`,
       },
     ],
   },
@@ -82,8 +82,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `John Lindquist`,
-        short_name: `johnlindquist.com`,
+        name: `Jeffrey Gaboni`,
+        short_name: `iamthenewking.com`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#000`,
@@ -143,7 +143,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'johnlindquist.com',
+            title: 'iamthenewking.com',
           },
         ],
       },
